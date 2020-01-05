@@ -3,8 +3,8 @@ import React from 'react';
 function ProductDetails({product}) {
     return (
         <div>
-            {product.displayName}
-            <img src={product.productImage} title={product.displayName} />
+            <h1>{product.displayName}</h1>
+            <img src={product.productImage} alt={product.displayName} />
         </div>
     );
 }

@@ -13,6 +13,7 @@ function ProductStockLevels({stock}) {
                         storeState={stockLevel.StoreInfo.State} 
                         storePostcode={stockLevel.StoreInfo.Postcode} 
                         storeSuburb={stockLevel.StoreInfo.Suburb} 
+                        stockMessage={stockLevel.StockStatus[0].Message} 
                         stockCount={stockLevel.StockStatus[0].StockCount} 
                     />);
             }) 
