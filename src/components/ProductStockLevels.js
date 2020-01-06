@@ -16,7 +16,7 @@ function ProductStockLevels({stock}) {
                 stock.map((stockLevel, index) => 
                 {
                     return (
-                        <div className="cf bt bb">
+                        <div key={index} className="cf bt bb">
                             <div className="fl w-10 pa1">{stockLevel.StoreInfo.State}</div>
                             <div className="fl w-20 pa1">{stockLevel.StoreInfo.StoreName}</div>
                             <div className="fl w-10 pa1">{stockLevel.StoreInfo.Postcode}</div>
