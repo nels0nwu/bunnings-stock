@@ -13,7 +13,7 @@ class App extends Component {
             <Route path="/:productId" render={(props) => <Product id={props.match.params.productId} />}>
             </Route>
             <Route path="/">
-              <h1>Nope</h1>
+              <h1>Add a Bunnings product code to the end of the url, like for <a href="/6290574">example</a></h1>
             </Route>
           </Switch>
         </div>
